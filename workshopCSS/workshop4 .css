@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  font-family: Arial, sans-serif;
+  background: #f6f7fb;
+  color: #172033;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1 1 180px;
+  min-height: 160px;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #d9e0ea;
+  border-radius: 8px;
+}
+
+.card__eyebrow {
+  margin: 0 0 12px;
+  color: #0f766e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.card h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.card p:last-child {
+  margin: 0;
+  color: #64748b;
+  line-height: 1.5;
+}
+.next {
+  color: #539164;
+  font-size: 16px;
+  margin: 90%;
+}
+.back {
+  color: #915353;
+  font-size: 16px;
+  margin: 10%;
+}

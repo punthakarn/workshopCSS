@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 72px;
+  padding: 0 28px;
+  background: #ffffff;
+  border-bottom: 1px solid #d9e0ea;
+}
+
+.brand {
+  color: #1f5eff;
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.nav a,
+.cta {
+  color: #46556d;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.cta {
+  padding: 9px 16px;
+  color: #ffffff;
+  background: #1f5eff;
+  border-radius: 6px;
+  font-weight: 700;
+}
+
+.next {
+  color: #539164;
+  font-size: 16px;
+  margin: 90%;
+}
