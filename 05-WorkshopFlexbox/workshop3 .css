@@ -63,13 +63,9 @@ body {
   border-radius: 6px;
   font-weight: 700;
 }
-.next {
+
+.Workshop {
   color: #539164;
   font-size: 16px;
-  margin: 90%;
-}
-.back {
-  color: #915353;
-  font-size: 16px;
-  margin: 10%;
+  margin: 50%;
 }

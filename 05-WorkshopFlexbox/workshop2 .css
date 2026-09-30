@@ -51,13 +51,8 @@ button {
   background: #0f766e;
   border-color: #0f766e;
 }
-.next {
+.Workshop {
   color: #539164;
   font-size: 16px;
-  margin: 90%;
-}
-.back {
-  color: #915353;
-  font-size: 16px;
-  margin: 10%;
+  margin: 50%;
 }
