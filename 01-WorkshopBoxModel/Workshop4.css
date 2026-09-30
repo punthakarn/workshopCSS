@@ -1,0 +1,29 @@
+body {
+  margin: 24px;
+  background: #f1f5f9;
+  font-family: sans-serif;
+}
+
+.panel {
+  width: 380px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+}
+
+.panel h3 {
+  margin: 0;
+  padding: 12px 16px;
+  background: #f1f5f9;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.log {
+  height: 130px;
+  padding: 12px 16px;
+  overflow-y: auto;
+}
+
+.log p {
+  margin: 0 0 8px;
+  color: #475569;
+}
